@@ -63,7 +63,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-image: url('/images/nebula.png');
+  background-image: url('/images/nebula.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
