@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Kristoph
+tagline:          'A pragmatic developer of internet things'
+description:      'Development tricks with an emphasis on Ruby'
+url:              http://mrkris.com
+email:            mrkris@mrkris.com
+baseurl:          /
+
+author:
+  name:           'Kristoph'
+  url:            https://twitter.com/mrkris
+  gravatar:       http://gravatar.com/avatar/03b5f4247bf3a72476cb7481572e70da
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:           http://github.com/kris
+comments:         true
