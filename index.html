@@ -16,7 +16,7 @@ title: Home
     <span class="post-date">
       {{ post.date | date_to_string }}
       in
-      {{ page.tags | array_to_sentence_string }}    
+      {{ post.tags | array_to_sentence_string }}    
     </span>
 
     {{ post.content }}
