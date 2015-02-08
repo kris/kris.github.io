@@ -21,7 +21,7 @@ end
 
 This is a standard ActiveRecord callback that gets called both when an object is instantiated and when retrieved from the database. Be sure to set the value conditionally, as you don't want to overwrite the value when it's pulled from the database.
 
-I'm sure we can clean this up a little using <a href="http://api.rubyonrails.org/classes/ActiveSupport/Concern.html" target="_blank">ActiveSupport::Concern</a>. Concerns are very similar to standard Ruby modules, but with some added (and semi-controversial) functionality. All we need to do is add the following to *app/models/concerns/defaults.rb*:
+I'm sure we can clean this up a little using <a href="http://api.rubyonrails.org/classes/ActiveSupport/Concern.html" target="_blank" rel="nofollow">ActiveSupport::Concern</a>. Concerns are very similar to standard Ruby modules, but with some added (and semi-controversial) functionality. All we need to do is add the following to *app/models/concerns/defaults.rb*:
 
 {% highlight ruby %}
 module Defaults
