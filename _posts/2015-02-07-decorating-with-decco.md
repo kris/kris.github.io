@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Decorating with Decco
-tags: [Ruby, Decco]
+tags: [Ruby, Decco, Rails]
 comments: true
 ---
 
