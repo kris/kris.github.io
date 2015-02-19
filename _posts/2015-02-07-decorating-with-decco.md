@@ -30,7 +30,7 @@ From here you can instantiate a new instance:
 Decco.decorate(@user)
 
 # Specify a decorator
-Decco.decorate(@user, 'OtherUserDecorator')
+Decco.decorate(@user, OtherUserDecorator)
 {% endhighlight %}
 
 If you're using this within Rails, then you get an additional helper for your views:
